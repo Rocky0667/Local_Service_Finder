@@ -1,0 +1,31 @@
+/* css/index-style.css */
+
+/* Custom Category Grid Card Links */
+.category-link-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+/* Constrained Top Verified Provider Circular Frame Layout */
+.provider-img-fixed {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto 10px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fdfdfd;
+    border: 3px solid #eee;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.provider-img-fixed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+}

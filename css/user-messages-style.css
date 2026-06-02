@@ -1,0 +1,117 @@
+/* css/user-messages-style.css */
+
+/* Chat Wrapper Area Elements Layout */
+.user-chat-main-box {
+    background: white; 
+    border-radius: 20px; 
+    border: 1px solid #eee; 
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+}
+
+.user-chat-top-header {
+    padding: 20px; 
+    border-bottom: 1px solid #eee; 
+    background: #fafafa;
+}
+
+.user-chat-meta-row {
+    display: flex; 
+    align-items: center; 
+    gap: 15px;
+}
+
+.user-chat-meta-row img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.user-chat-meta-row h4 {
+    font-weight: 700; 
+    color: #1a2a6c; 
+    margin-bottom: 2px;
+}
+
+.user-chat-online-badge {
+    font-size: 13px; 
+    color: #28a745; 
+    font-weight: 600;
+}
+
+.user-chat-online-badge i {
+    font-size: 10px; 
+    margin-right: 5px;
+}
+
+/* Scroll Window Area & Base Bubble Layout */
+.user-chat-display-scroller {
+    padding: 25px; 
+    height: 400px; 
+    overflow-y: auto; 
+    background: #fdfdfd; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.user-chat-display-scroller .msg {
+    max-width: 65%; 
+    padding: 12px 18px; 
+    font-size: 14px;
+}
+
+.user-chat-display-scroller .msg p {
+    margin: 0; 
+    line-height: 1.5;
+}
+
+/* Chat Variant Bubble Alignments */
+.user-bubble-sent-client {
+    align-self: flex-end; 
+    background: #1a2a6c; 
+    color: white; 
+    border-radius: 15px 15px 0 15px;
+}
+
+.user-bubble-received-provider {
+    align-self: flex-start; 
+    background: #eee; 
+    color: #333; 
+    border-radius: 15px 15px 15px 0;
+}
+
+/* Footer Input Text Enclosure Form Form field elements */
+.user-chat-input-form-tray {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+    border-top: 1px solid #eee; 
+    background: #fafafa; 
+    gap: 15px;
+}
+
+.user-chat-input-form-tray .input-wrapper {
+    flex: 1;
+}
+
+.user-chat-input-form-tray .input-wrapper input {
+    width: 100%; 
+    padding: 14px 20px; 
+    border: 2px solid #eee; 
+    border-radius: 12px; 
+    outline: none; 
+    font-family: inherit;
+}
+
+.user-chat-btn-send {
+    border: none; 
+    padding: 14px 30px; 
+    background: #28a745; 
+    color: white; 
+    font-weight: 700; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    white-space: nowrap;
+}

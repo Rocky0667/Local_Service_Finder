@@ -1,0 +1,34 @@
+/* css/search-style.css */
+
+/* Custom Search Result Image Container Aspect Ratio Bounds */
+.search-result-card .result-img-box img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 12px;
+}
+
+/* Empty Search Feedback Box Card Elements */
+.search-empty-state-card {
+    text-align: center; 
+    padding: 40px; 
+    background: white; 
+    border-radius: 20px; 
+    border: 1px solid #f0f0f0; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.03);
+}
+
+.search-empty-state-card i {
+    font-size: 50px; 
+    color: #ccc; 
+    margin-bottom: 20px;
+}
+
+.search-empty-state-card h3 {
+    color: #1a2a6c; 
+    margin-bottom: 10px;
+}
+
+.search-empty-state-card p {
+    color: #777;
+}
